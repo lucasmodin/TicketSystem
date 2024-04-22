@@ -24,7 +24,7 @@ public class SolgteBilletter {
         int forsalgCount = 0;
         int forsalgStudieRabatCount = 0;
 
-        Collections.sort(solgteBilletter, );
+
         for (Billet billet : solgteBilletter) {
             if (billet instanceof BilletIDøren) {
                 dørenCount ++;
