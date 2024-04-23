@@ -46,12 +46,12 @@ public class SolgteBilletter {
         String result = "";
 
         ArrayList<String> studieKortIdList = new ArrayList<>();
-
         for (Billet billet : solgteBilletter) {
             if(billet instanceof BilletForsalgStudierabat) {
                 String studieId = ((BilletForsalgStudierabat) billet).getStudieKortId();
                 studieKortIdList.add(studieId);
             }
+
         } for (String studieId : studieKortIdList ) {
             result += studieId + ", ";
         }

@@ -17,6 +17,11 @@ public BilletForsalg (String billetId, int dageTilEvent) {
     }
 
     @Override
+    public String getId() {
+        return billetId;
+    }
+
+    @Override
     public String toString() {
         return "Billettype: Forsalg, Billet ID: " + billetId + ", Pris " + billetPris() + " kr.";
     }

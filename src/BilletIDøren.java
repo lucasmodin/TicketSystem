@@ -13,6 +13,11 @@ public BilletIDøren(String billetId) {
         return 150;
     }
 
+    @Override
+    public String getId() {
+        return billetId;
+    }
+
 
     @Override
     public String toString() {

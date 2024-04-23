@@ -1,4 +1,6 @@
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
@@ -9,9 +11,9 @@ public class Main {
 
         Billet dørenBillet = new BilletIDøren("2222f");
         Billet forsalgBillet = new BilletForsalg("233f", random.nextInt(20));
-        Billet forsalgStudieRabatBillet = new BilletForsalgStudierabat("3", random.nextInt(20), "123445");
-        Billet forsalgStudieRabatBillet2 = new BilletForsalgStudierabat("3", random.nextInt(20), "123446");
-        Billet forsalgStudieRabatBillet3 = new BilletForsalgStudierabat("3", random.nextInt(20), "123447");
+        Billet forsalgStudieRabatBillet = new BilletForsalgStudierabat("4", random.nextInt(20), "123445");
+        Billet forsalgStudieRabatBillet2 = new BilletForsalgStudierabat("2", random.nextInt(20), "123446");
+        Billet forsalgStudieRabatBillet3 = new BilletForsalgStudierabat("5", random.nextInt(20), "123447");
 
         solgteBilletter.tilføjBillet(dørenBillet);
         solgteBilletter.tilføjBillet(forsalgBillet);

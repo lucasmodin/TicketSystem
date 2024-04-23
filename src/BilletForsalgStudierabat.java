@@ -22,6 +22,11 @@ public class BilletForsalgStudierabat implements Billet {
 
     }
 
+    @Override
+    public String getId() {
+        return billetId;
+    }
+
     public String getStudieKortId() {
         return studieKortId;
     }
